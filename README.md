@@ -48,6 +48,30 @@ go to the simulate option in the tab,edit the simulation command
 click the AC analysis and give the time as decade,number of points as 20,freuency as 1Hz to 1THz and click on okay
 now run the analysis the gain and frequency response is obtained
 
+ **caculations**<br>
+ power is 100uW<br>
+ VDD is 1.8v<br>
+ I<sub>d</sub> is 100u/1.8<br>
+ =55.5uA
+ from the loop equation VDD=I<sub>d</sub>+vout<br>
+ therefore,vout=1.745v<br>
+ hence the q point is (vout,i<sub>d</sub>)<br>
+ =(1.745v,55.5uA)
+
+ **result**
+ DC analysis Id= 55.5uA
+ for width of 6.85um and length of 1um<br> and vout id 1.745v
+<br> therefore operating point is (1.745v,4.5uA)<br>
+
+**transient analysis**
+**inference**
+the circuit is designed for 1k drain resistor<br>.it is providing voltage gain with inverted output.<br> AC gain helps us to obtain the frequency response and gain.<br>however proper biasing is crutial for for the transistor to operate in saturation region
+
+
+ 
+ 
+ 
+
 
 
 
