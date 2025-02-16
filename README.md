@@ -90,6 +90,17 @@ gain is -20dB
 the circuit is designed for 1k drain resistor<br>.it is providing voltage gain with inverted output.<br> AC gain helps us to obtain the frequency response and gain.<br>however proper biasing is crutial for for the transistor to operate in saturation region the mosfet gain is increasedin the mid band frequencyrange that is small signal analysis<br> we also observe that the current varies with respect to that of the width.
 
 ##circut_2
+## **aim** 
+obtain the DC analysis,transient and AC analysis of the CS amplifier to obtain various parameters using LT spice.
+## **required components**
+MOSFET(nmos4),(pmos4),voltage (1.8v,0.7v),connecting wires
+## **circuit diagram**
+![Screenshot (20)](https://github.com/user-attachments/assets/1380ac15-b5a3-46a2-a4a8-555559b4e08c)
+## **theory**
+mosfet is a type of transister widely used in digital and analog circuits.it operates as voltage controlled device, allowing current to flow between its drain and source terminal based on the voltage applied on gate terminal.the working principle of the mosfet is when voltage is applied to the gate terminal electric field is created influcing the charge carriers in the channel region . there are 3 modes of operation  that is cutoff region,triode region and saturation region.in the cutoff region the voltage acoss gate and source is less than the threshold so no current flows,in thriode when the voltage across gate and source is less than threshold allows current to flow with low resistance'in saturation region the voltage across gate and souce is greater than the threshold so maxium current flows in this region.
+
+
+
 
 
 
