@@ -64,6 +64,11 @@ now run the analysis the gain and frequency response is obtained
 <br> therefore operating point is (1.745v,4.5uA)<br>
 
 **transient analysis**
+vout = .543V<br>
+There is 180 degree phase shift between iput and output
+**AC analysis**
+gain is -20dB
+
 **inference**
 the circuit is designed for 1k drain resistor<br>.it is providing voltage gain with inverted output.<br> AC gain helps us to obtain the frequency response and gain.<br>however proper biasing is crutial for for the transistor to operate in saturation region
 
