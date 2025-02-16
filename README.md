@@ -65,12 +65,15 @@ now run the analysis the gain and frequency response is obtained
 
 **transient analysis**
 vout = .543V<br>
-There is 180 degree phase shift between iput and output
+There is 180 degree phase shift between iput and output<br>
 **AC analysis**
 gain is -20dB
 
 **inference**
-the circuit is designed for 1k drain resistor<br>.it is providing voltage gain with inverted output.<br> AC gain helps us to obtain the frequency response and gain.<br>however proper biasing is crutial for for the transistor to operate in saturation region
+the circuit is designed for 1k drain resistor<br>.it is providing voltage gain with inverted output.<br> AC gain helps us to obtain the frequency response and gain.<br>however proper biasing is crutial for for the transistor to operate in saturation region the mosfet gain is increasedin the mid band frequencyrange that is small signal analysis<br> we also observe that the current varies with respect to that of the width.
+
+##circut_2
+
 
 
  
