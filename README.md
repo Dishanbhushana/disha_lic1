@@ -107,6 +107,8 @@ now give the different values for length and width by trail and error method for
 ## **DC analysis** 
 by varing the length and width go to the configure analysis and select DC analysis , run the simulations we obtain the simulations as shown in the figure.(.op)
 this helps in determining the DC operating point
+![Screenshot (22)](https://github.com/user-attachments/assets/7f76d4f2-8526-43db-80eb-0edd87dc3e2e)
+
 **tabular column**
 <table>
 <tr>
@@ -124,9 +126,9 @@ this helps in determining the DC operating point
   <td>69.46uA</td>
 </tr> 
    <tr>
-   <td>length></td>
-   <td>width</td>
-   <td>I<sub>d</sub></td>
+   <td>180nm</td>
+   <td>2.02</td>
+   <td>54.98uA></td>
 </tr> 
 </table>
 
@@ -134,11 +136,15 @@ this helps in determining the DC operating point
 apply the sine wave input of frequency 1KHz and amplitude 50mV
 go to the simulate configure and select the transient analysis option(.trans 5ms)
 give the stop time as 5ms and then run the simulations
+![Screenshot (24)](https://github.com/user-attachments/assets/4cd1d3dd-18a2-48d5-8109-17366f4c6d0f)
+
 
 **AC analysis**
 go to the simulate option in the tab,edit the simulation command
 click the AC analysis and give the time as decade,number of points as 20,freuency as 1Hz to 1THz and click on okay
 now run the analysis the gain and frequency response is obtained
+![WhatsApp Image 2025-02-17 at 23 22 25_941c5154](https://github.com/user-attachments/assets/5403d8a1-d3a7-418a-a74e-db674c460a80)
+
 
 
  **result**
@@ -151,6 +157,7 @@ now run the analysis the gain and frequency response is obtained
  it gives the study of voutput and drain current respond to time varying input signal
  in the transient rise time,fall time is analysied that is the circuits response time
  due to the variation of the in capacitance and current flow
+ 
  
 
 
