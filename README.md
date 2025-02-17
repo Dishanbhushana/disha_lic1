@@ -98,6 +98,62 @@ MOSFET(nmos4),(pmos4),voltage (1.8v,0.7v),connecting wires
 ![Screenshot (20)](https://github.com/user-attachments/assets/1380ac15-b5a3-46a2-a4a8-555559b4e08c)
 ## **theory**
 mosfet is a type of transister widely used in digital and analog circuits.it operates as voltage controlled device, allowing current to flow between its drain and source terminal based on the voltage applied on gate terminal.the working principle of the mosfet is when voltage is applied to the gate terminal electric field is created influcing the charge carriers in the channel region . there are 3 modes of operation  that is cutoff region,triode region and saturation region.in the cutoff region the voltage acoss gate and source is less than the threshold so no current flows,in thriode when the voltage across gate and source is less than threshold allows current to flow with low resistance'in saturation region the voltage across gate and souce is greater than the threshold so maxium current flows in this region.
+## **procedure**
+design the CS amplifier as per the given parameters using the LT spice
+now give the values to the components used in the parameter 
+create a new folder and save the lt spice file in the folder with the library file
+find the current value for the given power rating that is(100uw)
+now give the different values for length and width by trail and error method for nmos and pmos to get respective drain current 
+## **DC analysis** 
+by varing the length and width go to the configure analysis and select DC analysis , run the simulations we obtain the simulations as shown in the figure.(.op)
+this helps in determining the DC operating point
+**tabular column**
+<table>
+<tr>
+   <td>length></td>
+   <td>width</td>
+   <td>I<sub>d</sub></td>
+</tr> 
+  <tr>
+  <td>180nm</td>
+  <td>5.86um</td>
+  <td>40.83uA</td>
+</tr>
+  <td>180nm</td>
+  <td>2.55u</td>
+  <td>69.46uA</td>
+</tr> 
+   <tr>
+   <td>length></td>
+   <td>width</td>
+   <td>I<sub>d</sub></td>
+</tr> 
+</table>
+
+**transient analaysis**
+apply the sine wave input of frequency 1KHz and amplitude 50mV
+go to the simulate configure and select the transient analysis option(.trans 5ms)
+give the stop time as 5ms and then run the simulations
+
+**AC analysis**
+go to the simulate option in the tab,edit the simulation command
+click the AC analysis and give the time as decade,number of points as 20,freuency as 1Hz to 1THz and click on okay
+now run the analysis the gain and frequency response is obtained
+
+
+ **result**
+ **inference**
+ **DC analysis**
+ the data shows the effect of the varing transistor width on current and the output voltage
+ as the width decreases the current also decreases that is directly propotional
+ the output voltage increases as the drain current decreases(inverse relationship)
+ **transient analysis**
+ it gives the study of voutput and drain current respond to time varying input signal
+ in the transient rise time,fall time is analysied that is the circuits response time
+ due to the variation of the in capacitance and current flow
+ 
+
+
 
 
 
