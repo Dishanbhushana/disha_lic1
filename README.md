@@ -163,11 +163,11 @@ Qpoint is(1.658v,54.98uA)
  for width of 1.02um and length of 180nm<br> and vout  1.658v
 <br> therefore operating point is (1.658v,54.98uA)<br>
 ![Screenshot (22)](https://github.com/user-attachments/assets/223071b9-71f6-4b7f-9c46-706a8f49877a)
-**transient analysis**
-
+**transient analysis**<br>
+There is 180 degree phase shift
 ![Screenshot (24)](https://github.com/user-attachments/assets/4cd1d3dd-18a2-48d5-8109-17366f4c6d0f)
-**AC anlysis**
-gain is 
+**AC anlysis**<br>
+gain is 3.8dB
 ![WhatsApp Image 2025-02-17 at 23 22 25_941c5154](https://github.com/user-attachments/assets/5403d8a1-d3a7-418a-a74e-db674c460a80)
 
  **inference**
