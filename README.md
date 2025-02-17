@@ -33,12 +33,17 @@ this helps in determining the DC operating point
 </tr> 
   <tr>
   <td>180nm</td>
-  <td>1um</td>
-  <td>4.5</td>
+  <td>0.2u</td>
+  <td>55.2uA</td>
 </tr>
   <td>180nm</td>
-  <td>2um</td>
-  <td>9</td>
+  <td>0.203um</td>
+  <td>55.5uA</td>
+</tr>
+    <tr>
+  <td>180nm</td>
+  <td>1um</td>
+  <td>4.5</td>
 </tr>
 </table>
 
@@ -69,7 +74,7 @@ now run the analysis the gain and frequency response is obtained
  **result**
  DC analysis Id= 55.5uA
  for width of 6.85um and length of 1um<br> and vout id 1.745v
-<br> therefore operating point is (1.745v,4.5uA)<br>
+<br> therefore operating point is (1.745v,55.5uA)<br>
 ![Screenshot (17)](https://github.com/user-attachments/assets/c8d8480a-5db0-46ec-8f67-fd8d32d788db)
 
 
@@ -144,10 +149,29 @@ go to the simulate option in the tab,edit the simulation command
 click the AC analysis and give the time as decade,number of points as 20,freuency as 1Hz to 1THz and click on okay
 now run the analysis the gain and frequency response is obtained
 ![WhatsApp Image 2025-02-17 at 23 22 25_941c5154](https://github.com/user-attachments/assets/5403d8a1-d3a7-418a-a74e-db674c460a80)
+**calculations**
+take power as 100uW<br>.
+P=V*I where v is 1.8V<br>.
+therefore I=54.98uA<br>.
+we get Vout as 1.658<br>.
+Qpoint is(1.658v,54.98uA)
 
 
 
  **result**
+ DC analysis Id= 54.98uA
+ for width of 1.02um and length of 180nm<br> and vout  1.658v
+<br> therefore operating point is (1.658v,54.98uA)<br>
+![Screenshot (22)](https://github.com/user-attachments/assets/223071b9-71f6-4b7f-9c46-706a8f49877a)
+**transient analysis**
+apply the sine wave input of frequency 1KHz and amplitude 50mV
+go to the simulate configure and select the transient analysis option(.trans 5ms)
+give the stop time as 5ms and then run the simulations
+![Screenshot (24)](https://github.com/user-attachments/assets/4cd1d3dd-18a2-48d5-8109-17366f4c6d0f)
+**AC anlysis**
+gain is
+![WhatsApp Image 2025-02-17 at 23 22 25_941c5154](https://github.com/user-attachments/assets/5403d8a1-d3a7-418a-a74e-db674c460a80)
+
  **inference**
  **DC analysis**
  the data shows the effect of the varing transistor width on current and the output voltage
@@ -157,6 +181,14 @@ now run the analysis the gain and frequency response is obtained
  it gives the study of voutput and drain current respond to time varying input signal
  in the transient rise time,fall time is analysied that is the circuits response time
  due to the variation of the in capacitance and current flow
+ **AC analysis**
+ AC analysis examins the small signal behavior of the circuit
+ the gain and the frequency response is determined by analysisthe width variation on small signal parameters
+
+
+ 
+
+
  
  
 
